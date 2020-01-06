@@ -1,1 +1,10 @@
-sales and rent system
+sales and rent item system
+forms: 
++item -> (id , name , price ,quan , color )
++itemsold -> (id , soldprice , quan ,color)
++emp -> (id , name , address , age ,phone)
+
+reports :
+emp (-> address -> age) 
+item (-> price+quan )
+sales (->color)
