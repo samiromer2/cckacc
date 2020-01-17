@@ -3,6 +3,7 @@ forms:
 +item -> (id , name , price ,quan , color )
 +itemsold -> (id , soldprice , quan ,color)
 +emp -> (id , name , address , age ,phone)
++account(name,type,amount,into,date)
 
 reports :
 emp (-> address -> age) 
